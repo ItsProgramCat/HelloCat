@@ -1,0 +1,6 @@
+Form Exercise
+
+
+Form exercise is a simple SAMPLE registration form written in standard HTML5, it can and will be updated in the future with more capabilites. But it's really just here as a back up 
+and a practice file. :)
+
