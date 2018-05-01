@@ -1,0 +1,26 @@
+img{
+  width: 30%;
+  float: left;
+  margin:1.66%;
+}
+
+body{background: linear-gradient(to bottom right, #b3b3ff,#5bd7d7, #99e6e6);
+
+
+}
+p{font-family:Righteous;
+  margin-left:1.66%;
+  font-size:23px;
+  font-weight:800;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f1f1f1;
+  width: 30%;
+  padding-bottom: 20px;
+}
+
+p:hover {color: white;
+}
+
+img:hover{color: white;
+  opacity: 0.5;
+}
