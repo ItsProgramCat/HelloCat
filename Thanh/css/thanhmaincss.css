@@ -1,0 +1,154 @@
+.AboutThanh1{
+  background-image:url('https://u.catgirl.host/z1mdrs.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+
+.contactdiv{
+  background-image:url('https://u.catgirl.host/clexfd.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 100%;
+}
+
+.menu{
+  background-image:url('https://u.catgirl.host/xa7en8.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 100%;
+}
+.menuh1{
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 110px;
+  padding-top: 20%;
+}
+
+
+.Menuu{
+  font-family: 'Poppins', sans-serif;
+  font-size: 100px;
+
+}
+
+.con{
+  font-family: 'Poppins',sans-serif;
+  font-size: 110px;
+  padding-top: 20%;
+  color: white;
+}
+
+.concon{
+font-family: 'Poppins', sans-serif;
+text-align: center;
+font-size: 40px;
+}
+
+.commentform {
+  line-height: 2.0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.btn:hover{
+  background-color:#7D82B8;
+  opacity: 0.5;
+  color: white;
+}
+
+.btn{
+  width: 100px;
+  height: 50px;
+  background: #7D82B8;
+  border: 0.5px solid;
+  font-family: 'Poppins', sans-serif;
+}
+
+#inputquestion{
+  width: 500px; height: 200px; border: 1px solid #999999; padding: 5px; }
+}
+
+img {
+  width:68%;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.AboutThanh1 h1{
+  text-align:center;
+  padding-top: 20%;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 70px;
+  opacity: 1;
+}
+
+.AboutThanh1 h2{
+  font-size: 30px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.AboutThanh2{
+  padding:50px 80px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.AboutThanh2 h1{
+  font-size: 60px;
+  text-align: center;
+}
+
+h1 .form{
+  text-align: center;
+}
+.founder{
+  border-radius: 50%;
+ width: 20%;
+}
+
+.Thanhex {
+  text-align: left;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.Contact2{
+  padding:50px 80px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+
+
+@media (max-width: 900px)
+{ .Thanhex {
+  font-size: 15px;
+}
+
+.ThanhWho {
+  font-size: 10px;
+}
+
+.AboutThanh1 h1{
+  font-size: 40px;
+}
+  .con{
+  font-size: 80px;
+  }
+
+  .contactdiv{
+  width: 100%;
+  }
+
+  .AboutThanh1{
+    width: 100%;
+  }
+.founder{
+  display: none;
+}
+.thanhmenu{
+  width: 100%;
+}
+}

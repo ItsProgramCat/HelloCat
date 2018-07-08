@@ -1,0 +1,128 @@
+body{
+  margin:0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
+nav{
+  width: 100%;
+  background: #f9f9f9;
+  padding: 0 50px;
+  box-sizing: border-box;
+
+}
+
+nav h1{margin: 0;
+float: left;
+padding: 15px 20px;
+
+}
+
+nav h1 a{
+text-decoration: none;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px 30px;
+  transition: .5s;
+  font-family:'Poppins', sans-serif;
+}
+
+nav ul li a{
+  color: #8c8c8c;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: #7D82B8;
+}
+
+.responsive-bar {
+  width: 100%;
+  background: #f9f9f9;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  display: none;
+}
+
+.responsive-bar h3 {
+  margin:0
+  padding: 3px 0;
+  color: #666;
+  float: left;
+  text-align: center;
+
+}
+
+.responsive-bar h3 a {
+  color: #fff;
+text-decoration: none;
+
+}
+
+
+.responsive-bar h4 {
+margin: 0;
+padding: 5px 10px;
+color: #666;
+float: right;
+background:#f9f9f9;
+text-transform: uppercase;
+cursor: pointer;
+
+}
+
+@media (max-width: 900px)
+{
+  nav
+  {
+    display:none;
+    padding: 0;
+  }
+
+
+.responsive-bar{
+  display: block;
+}
+
+nav h1{
+  display: block;
+  float: none;
+
+}
+
+nav ul{
+  float: none;
+}
+
+nav ul li{
+  display: block;
+  text-align: center;
+  padding: 15px 20px;
+
+
+}
+
+nav ul li{
+    border-bottom: 1px solid #fff;
+    opacity: 0.5
+}
+
+h1 .brand{
+  display: none;
+
+}
+
+}
+
+li .active{
+  color:#7D82B8;
+}

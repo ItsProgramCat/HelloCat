@@ -1,0 +1,30 @@
+footer{
+  background-color: #fff;
+}
+footer {
+bottom: 0;
+left: 0;
+position: static;
+text-align: center;
+width: 100%;
+z-index: -1;
+font-family:'Poppins', sans-serif;
+padding: 50px;
+
+
+}
+footer h1 a {
+margin: 0;
+font-size: 15px;
+text-decoration: none;
+color: #666;
+}
+}
+
+.yelp{
+  size: 20px;
+}
+
+.instagram{
+  size: 20px;
+}
