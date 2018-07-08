@@ -1,0 +1,250 @@
+.logo{
+  display: block;
+margin: 0 auto;
+/* width: 200px; */
+
+}
+
+.style-six{
+  border: 0;
+height: 0;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+width: 80%;
+}
+
+
+
+#menu{
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+#menu li{
+font-family: 'Pacifico', cursive;
+  font-weight: 800;
+  list-style: none;
+  display: inline-block;
+  padding: 20px 30px;
+ margin-right: 80px;
+ margin-left: 50;
+  transition: .5s;
+  font-size: 30px;
+}
+
+#menu a{
+  color: #000;
+}
+
+#menu a:hover{
+  color: #6C30A0;
+}
+
+.dropdown-menu{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+.dropdown-menu li{
+  font-family: 'Arial', cursive;
+    font-weight: 800;
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+   margin-right: 80px;
+   margin-left: 50;
+    transition: .5s;
+    font-size: 30px;
+}
+
+body {
+  /* font-family: 'Fjalla One',Times, sans-serif; */
+  color: #555;
+}
+
+h1, .h1,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: 'Fjalla One', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+
+}
+
+
+h2, .h2,{
+  font-family: 'Fjalla One' sans-serif;
+}
+
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+
+
+.blog-main {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+}
+
+
+.sidebar-module {
+  padding: 15px;
+  margin: 0 60px 25px;
+
+}
+.sidebar-module-inset {
+  padding: 30px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+    line-height: 2em;
+    margin-bottom: 60%;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+.blog-post {
+  margin-bottom: 70px;
+  margin-left: 50%;
+}
+.blog-post-title {
+  margin-top: 20%;
+  margin-bottom: 10px;
+  font-size: 40px;
+/* margin-right: 30%; */
+text-align: center;
+/* margin-left: 10%; */
+
+}
+
+.blog-post-title-hr{
+  width: 32%;
+  margin-left: 32%;
+}
+
+.nav-bar-hr{
+  width:80%;
+
+}
+.blog-post-meta {
+  margin-bottom: 30px;
+  margin-right: 5%;
+  color: #999;
+}
+
+.blog_post_hr{
+  margin-left: -15%;
+}
+
+.actual_content{
+  margin-right: 50%;
+}
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+  font-family: 'Pacifico';
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+  font-family: 'Pacifico';
+}
+
+@media (max-width: 1020px) {
+    #menu{
+        font-size: 30px;
+        margin-left: 17%;
+    }
+#menu .ig{
+  display:none;
+}
+    .logo{
+      width: 250px;
+      margin-left: 20%;
+
+    }
+    .blog-post-title{
+      margin-left: 10%;
+    }
+    .actual_content{
+      font-size: 20px;
+    }
+    /* .blog_post_hr{
+      margin-left: 5%;
+    } */
+    .blog-post-meta {
+      margin-bottom: 30px;
+      margin-left: 5%;
+      color: #999;
+    }
+    .blog-post-title-hr{
+      width: 30%;
+        margin-right: 32%;
+    }
+    .blog-footer {
+      padding: 40px 0;
+      color: #999;
+      text-align: center;
+      background-color: #f9f9f9;
+      border-top: 1px solid #e5e5e5;
+      font-family: 'Pacifico', Arial, Helvetica, sans-serif;
+
+    }
+}
